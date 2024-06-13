@@ -14,7 +14,8 @@
     "amfe-flexible": "^2.2.1",
     "postcss-pxtorem": "^6.1.0",
     "vant": "^4.9.1",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.3"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.13.0",

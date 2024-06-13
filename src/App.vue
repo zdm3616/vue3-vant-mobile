@@ -1,15 +1,10 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
-import { ref } from "vue";
-const value = ref("");
+import BottmNav from "./views/bottmNav.vue";
 </script>
 
 <template>
-  <van-search
-    v-model="value"
-    placeholder="请输入搜索关键词"
-    background="#4fc08d"
-  />
+  <router-view></router-view>
+  <BottmNav />
 </template>
 
 <style scoped></style>
