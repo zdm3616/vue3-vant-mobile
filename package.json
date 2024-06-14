@@ -10,6 +10,7 @@
     "lint": "eslint --ext .js,.vue,.ts src --fix"
   },
   "dependencies": {
+    "@types/node": "^20.14.2",
     "@types/postcss-pxtorem": "^6.0.3",
     "amfe-flexible": "^2.2.1",
     "postcss-pxtorem": "^6.1.0",

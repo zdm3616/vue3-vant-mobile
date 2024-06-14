@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import { ref } from "vue";
-const value = ref("");
+import Charts from "./charts.vue";
+import Popup from "./custPopup.vue";
+import Header from "./header.vue";
 </script>
-
 <template>
-  <van-search
-    v-model="value"
-    placeholder="请输入搜索关键词"
-    background="#4fc08d"
-  />
-  my
+  <Header></Header>
+  <Charts></Charts>
+  <div class="flex justify-between p-[15px] text-[16px]">
+    <h1 class="font-semibold">排行榜</h1>
+    <Popup></Popup>
+  </div>
 </template>
 
 <style scoped></style>
